@@ -5,7 +5,6 @@
 ---
 
 This document provides a historical overview of implementation claims recorded for the **Nervestack Programming Language (NSPL)**, developed under the former **Nervestack Neuron Institute (NNI)** identity.
-This document provides a comprehensive overview of the implementation status for the **Nervestack Programming Language (NSPL)**, developed by the **Nervestack Neuron Institute (NNI)**.
 
 ---
 
