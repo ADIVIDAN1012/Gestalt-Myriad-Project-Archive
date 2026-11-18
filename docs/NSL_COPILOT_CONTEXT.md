@@ -1,5 +1,11 @@
 # Nervestack Programming Language (NSPL) v2.0 Context
 
+> **Historical reference notice — 19 November 2026:** This document preserves material created under the former Nervestack / NSPL identity. That identity is under review within Gestalt Myriad; no successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused. This document is retained for historical and technical reference; it does not indicate an active product or operating division. See [TRANSITION.md](../TRANSITION.md).
+
+---
+
+**Overview**
+Nervestack (NSPL) is a custom interpreted language with a Python frontend (Lexer/Parser) and a C-based Runtime (Interpreter). It communicates via a JSON AST.
 **Overview**
 Nervestack (NSPL) is a custom interpreted language with a Python frontend (Lexer/Parser) and a C-based Runtime (Interpreter). It communicates via a JSON AST.
 
