@@ -1,133 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nervestack - Easiest to Read, Fastest to Run</title>
-    <meta name="description" content="Nervestack (NSPL) is the easiest and fastest programming language. Powered by a Python frontend for intuitive syntax and an optimized C++ runtime for blazing performance." />
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>A New Chapter Is Taking Shape</title>
+  <meta name="description" content="The former Nervestack identity is under review within Gestalt Myriad. No successor name has been selected.">
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10151d; color: #edf2f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 2rem; }
+    main { width: min(760px, 100%); padding: clamp(1.5rem, 5vw, 3.5rem); border: 1px solid #344253; border-radius: 22px; background: #18212c; }
+    .eyebrow { color: #9bb6ce; letter-spacing: .12em; text-transform: uppercase; font-size: .78rem; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.08; margin: 1rem 0; }
+    p { color: #c5d0dc; line-height: 1.75; }
+    .status { margin-top: 1.5rem; padding: 1rem 1.2rem; border-left: 3px solid #83b8a2; background: #202f35; border-radius: 8px; }
+    a { color: #a9d4c1; }
+    footer { margin-top: 2rem; color: #8e9baa; font-size: .9rem; }
+  </style>
 </head>
 <body>
-    <div class="glow-overlay"></div>
-    
-    <header>
-        <div class="logo">
-            <img src="assets/logo.svg" alt="Nervestack Logo">
-            <span>Nervestack</span>
-        </div>
-        <nav>
-            <a href="#features">Features</a>
-            <a href="#code">Code</a>
-            <a href="#contact">Contact</a>
-            <a href="https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI" class="btn-nav">GitHub</a>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>The <span class="gradient-text">Easiest</span> & <span class="gradient-text">Fastest</span> PL</h1>
-                <p class="subtitle">Nervestack (NSPL) blends human-centric syntax with high-performance execution. Powered by a Python-intelligent frontend and a blazing fast C++ runtime.</p>
-                <div class="cta-group">
-                    <a href="https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/releases/tag/v1.0.0" class="btn btn-primary">
-                        <span class="icon">⚡</span> Download NSPL
-                    </a>
-                    <a href="https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/releases/tag/v1.0.0" class="btn btn-secondary">
-                        <span class="icon">🧩</span> VS Code Extension
-                    </a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="code-window">
-                    <div class="window-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                    </div>
-                    <pre><code class="language-nervestack"><span class="comment">&lt; Easiest Syntax &gt;</span>
-<span class="keyword">spec</span> greet <span class="keyword">with</span> name:
-    <span class="function">show</span> <span class="string">"Hello, |name|!"</span>
-<span class="keyword">done</span>
-
-<span class="comment">&lt; Fastest Performance &gt;</span>
-<span class="keyword">traverse</span> i <span class="keyword">from</span> 1 <span class="keyword">to</span> 1000000:
-    <span class="comment">&lt; Executed by C++ Engine &gt;</span>
-<span class="keyword">done</span></code></pre>
-                </div>
-            </div>
-        </section>
-
-        <section id="features" class="features">
-            <h2>Why Nervestack?</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="icon">💡</div>
-                    <h3>Easiest to Read</h3>
-                    <p>Designed with UOP philosophy to read like natural language. Keywords like `when`, `spec`, and `blueprint` make intent clear.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🚀</div>
-                    <h3>Fastest to Run</h3>
-                    <p>Every instruction is executed by a custom, highly-optimized C++ runtime engine for near-native speed.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🎨</div>
-                    <h3>Modern OOP</h3>
-                    <p>Full support for `blueprint` classes, inheritance with `adopt`, and member access via `~>` operators.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="icon">🧠</div>
-                    <h3>Smart Type Detection</h3>
-                    <p>`ask` automatically detects numbers, booleans (On/Off), and text - making coding truly intuitive.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="code" class="usage">
-            <h2>Experience NSPL</h2>
-            <div class="usage-modes">
-                <div class="mode-card">
-                    <h3>⚡ 30-Second Quick Start</h3>
-                    <p>Run your programs instantly with our Python driver:</p>
-                    <pre><code># Install prerequisites: Python & C++ Compiler
-git clone https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git
-cd Nervestack-Neuron-Institute-NNI
-python run_file.py your_code.nspl</code></pre>
-                </div>
-                <div class="mode-card">
-                    <h3>🏗️ Dual-Engine Synergy</h3>
-                    <p>Python frontend parses the logic; C++ runtime powers the execution.</p>
-                    <pre><code># The best of both worlds:
-# Flexibility of Python
-# Speed of C++</code></pre>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Join the Institute</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span class="label">Institute</span>
-                    <span class="value">Nervestack Neuron Institute (NNI)</span>
-                </div>
-                <div class="contact-item">
-                    <span class="label">Email</span>
-                    <a href="mailto:aadityasadhu50@gmail.com" class="value">aadityasadhu50@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <span class="label">Community</span>
-                    <a href="https://chat.whatsapp.com/DRWgaZFQUlELZNwqVqLsw1" class="value" target="_blank">Join WhatsApp Group</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Nervestack Neuron Institute (NNI). All rights reserved.</p>
-    </footer>
+  <main>
+    <div class="eyebrow">Gestalt Myriad · Transition notice</div>
+    <h1>A New Chapter Is Taking Shape</h1>
+    <p>The identity historically known as <strong>Nervestack / Nervestack Neuron Institute (NNI)</strong> is under review as part of a broader transition within Gestalt Myriad.</p>
+    <p>No successor name has been selected. This is a deliberate transition, not a final farewell to the useful work and ideas developed under the former identity.</p>
+    <div class="status">
+      <strong>Current position</strong>
+      <p>The former identity is under review. The Programming Language Division Unit is closed and not operating. Its name, the language name and its source-file extension remain undecided; naming exploration is paused.</p>
+    </div>
+    <p>Existing research, source code, UOP principles and technical documentation are being preserved as inherited reference material. Their preservation does not indicate an active product launch or operating division.</p>
+    <footer>Gestalt Myriad · One enterprise. Myriad possibilities. A greater whole.</footer>
+  </main>
 </body>
 </html>
