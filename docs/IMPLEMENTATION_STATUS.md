@@ -1,5 +1,10 @@
 # Nervestack Programming Language - Implementation Status
 
+> **Historical reference notice — 19 November 2026:** This document preserves material created under the former Nervestack / NSPL identity. That identity is under review within Gestalt Myriad; no successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused. This document is retained for historical and technical reference; it does not indicate an active product or operating division. See [TRANSITION.md](../TRANSITION.md).
+
+---
+
+This document provides a historical overview of implementation claims recorded for the **Nervestack Programming Language (NSPL)**, developed under the former **Nervestack Neuron Institute (NNI)** identity.
 This document provides a comprehensive overview of the implementation status for the **Nervestack Programming Language (NSPL)**, developed by the **Nervestack Neuron Institute (NNI)**.
 
 ---
