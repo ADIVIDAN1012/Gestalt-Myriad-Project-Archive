@@ -1,19 +1,21 @@
-# Nervestack Documentation
+# Historical Technical Documentation
 
-Welcome to the official documentation for the Nervestack Programming Language. This collection of documents provides a comprehensive guide to its syntax, features, and core philosophy.
+This documentation preserves technical material created under the former **Nervestack / NSPL** identity.
 
-## Core Concepts
-- **[UOP (Universal User-Oriented Programming)](./UOP.md)**: Understand the core philosophy behind Nervestack.
-- **[Syntax](./Syntax.md)**: A complete reference for the language's syntax.
-- **[Keywords](./Keywords.md)**: A dictionary of all language keywords.
+The former identity is under review within **Gestalt Myriad**. No successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused until explicitly resumed.
 
-## Language Features
-- **[Built-in Functions](./builtins.md)**: A guide to the standard functions available in Nervestack.
-- **[Error Handling](./error.md)**: Learn how to handle errors using the `attempt-trap` system.
-- **[Bridge Interfaces](./Bridge.md)**: Understand how to create and use interfaces for modular design.
-- **[Toolkits (Modules)](./toolkit.md)**: Learn how to organize code into reusable modules.
-- **[Standard Library](./Lib.md)**: Explore the libraries included with Nervestack.
+These materials remain available as inherited reference material. Their presence does not imply that the former product or division is operating, nor that a replacement identity has been approved.
 
-## Learning Resources
-- **[Examples](./Examples.md)**: Practical code examples for common tasks.
-- **[README](./README.md)**: The main project README file.
+## Preserved reference materials
+
+- **[UOP (Universal User-Oriented Programming)](./UOP.md):** Historical explanation of the language-design philosophy.
+- **[Syntax](./Syntax.md):** Historical syntax reference.
+- **[Keywords](./Keywords.md):** Historical keyword dictionary.
+- **[Built-in Functions](./builtins.md):** Historical built-in function reference.
+- **[Error Handling](./error.md):** Historical error-handling reference.
+- **[Bridge Interfaces](./Bridge.md):** Historical interface documentation.
+- **[Toolkits (Modules)](./toolkit.md):** Historical module documentation.
+- **[Standard Library](./Lib.md):** Historical library documentation.
+- **[Examples](./Examples.md):** Historical code examples.
+
+For the current organisational position and preservation rules, see [the transition record](../TRANSITION.md).
