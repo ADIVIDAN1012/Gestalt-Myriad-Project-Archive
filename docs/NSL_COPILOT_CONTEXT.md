@@ -6,8 +6,6 @@
 
 **Overview**
 Nervestack (NSPL) is a custom interpreted language with a Python frontend (Lexer/Parser) and a C-based Runtime (Interpreter). It communicates via a JSON AST.
-**Overview**
-Nervestack (NSPL) is a custom interpreted language with a Python frontend (Lexer/Parser) and a C-based Runtime (Interpreter). It communicates via a JSON AST.
 
 ## 1. Syntax & Structure
 
