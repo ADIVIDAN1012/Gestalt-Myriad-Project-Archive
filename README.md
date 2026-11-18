@@ -1,90 +1,32 @@
-# 🧠 Nervestack (NSPL)
-### The Easiest to Read. The Fastest to Run.
+# A New Chapter Is Taking Shape
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+The project historically known as **Nervestack / Nervestack Neuron Institute (NNI)** is undergoing an identity review within **Gestalt Myriad**.
 
-Nervestack is a futuristic **Universal User-oriented Programming (UOP)** language. It's designed to be as readable as English while running with the blazing speed of C++.
+The former identity is under review, and **no successor name has been selected**. This is a deliberate transition—not a final farewell to the work.
 
----
+## Current status
 
-## ⚡ Quick Start (30 Seconds)
+- **Parent enterprise:** Gestalt Myriad remains the continuing parent enterprise.
+- **Former NNI identity:** Under review; successor **UNKNOWN / NOT DECIDED**.
+- **Programming Language (PL) Division Unit:** **CLOSED / NOT OPERATING**.
+- **PL division identity, programming language name and source-file extension:** **UNKNOWN / NOT DECIDED**.
+- **Naming exploration:** Paused until explicitly resumed.
+- **Website:** Unpublished during the transition; no replacement official website or URL has been established.
 
-1. **Clone & Build**
-   ```bash
-   git clone https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git
-   cd Nervestack-Neuron-Institute-NNI
-   cd src/runtime; .\build.bat; cd ../..
-   ```
+The PL Division's closure applies only to that division and its business/startup initiative. It does not mean Gestalt Myriad is closed, suspended or cancelled.
 
-2. **Write your first program** (`hello.nspl`)
-   ```nervestack
-   show "Hello, Nervestack!"
-   ```
+## What happens to the existing work?
 
-3. **Run it instantly**
-   ```bash
-    python tools/scripts/run_file.py hello.nspl
-   ```
+The repository is being retained as an archive of useful inherited work. Existing source code, UOP principles, research, language-design work, documentation, examples and technical contributions are not being discarded merely because their former branding is deprecated.
 
----
+Historical identifiers such as `Nervestack`, `NSPL` and `NNI` may remain in source code, file extensions, paths and technical records where they are needed for continuity and traceability. Their presence does not make them approved current branding.
 
-## 🚀 Why Nervestack?
+No successor name, acronym, logo, tagline, domain or replacement file extension is being announced. The underlying syntax, architecture and functionality are not being changed solely as part of this identity transition.
 
-### 1. Easy to Read (Python Frontend)
-Nervestack uses a Python-based intelligent parser that understands English-like keywords. No more cryptic symbols.
-```nervestack
-spec greet with name:
-    show "Hello, |name|! Welcome to the future."
-done
+## Transition record
 
-greet "Developer"
-```
-
-### 2. Fast to Run (C++ Runtime)
-Once parsed, your code is executed by a high-performance **C++ engine**. You get the simplicity of Python with the raw power of C++.
+See **[TRANSITION.md](TRANSITION.md)** for the authoritative status, preservation rules and naming safeguards.
 
 ---
 
-## ✨ Key Features
-
-- **Natural Syntax**: `when`, `otherwise`, `traverse`, `until`, `attempt`.
-- **Intelligent I/O**: `ask` for input, `show` for output.
-- **Modern OOP**: `blueprint` (classes), `adopt` (inheritance), `spawn` (instances).
-- **Safe & Robust**: Native `attempt-trap-conclude` error handling.
-
----
-
-## 🛠️ Installation
-
-### Prerequisites
-- **Python 3.10+**
-- **C++ Compiler** (GCC, Clang, or MSVC)
-
-### Detailed Setup
-```bash
-# 1. Get the code
-git clone https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git
-cd Nervestack-Neuron-Institute-NNI
-
-# 2. Build the C++ Engine
-cd src/runtime
-.\build.bat
-cd ../..
-```
-
----
-
-## 📖 Learning Nervestack
-
-- **[Syntax in 5 Minutes](docs/Syntax.md)** - Get up to speed quickly.
-- **[Keyword Dictionary](docs/Keywords.md)** - Every keyword explained.
-- **[The UOP Philosophy](docs/UOP.md)** - Why we built it this way.
-- **[Examples](docs/Examples.md)** - Real-world code snippets.
-
----
-
-## 🤝 Contributing
-
-We love help! Check out our [Contributing Guide](docs/CONTRIBUTING.md) to get started.
-
-Copyright © 2026 Nervestack Neuron Institute (NNI).
+*One enterprise. Myriad possibilities. A greater whole.*
