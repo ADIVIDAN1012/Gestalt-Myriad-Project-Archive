@@ -5,7 +5,6 @@
 ---
 
 Universal User-Oriented Programming (UOP) is the design philosophy behind the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
-Universal User-Oriented Programming (UOP) is the design philosophy behind the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
 
 ---
 
