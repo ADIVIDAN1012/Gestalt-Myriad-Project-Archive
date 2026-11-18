@@ -1,5 +1,10 @@
 # Universal User-Oriented Programming (UOP)
 
+> **Historical reference notice — 19 November 2026:** This document preserves material created under the former Nervestack / NSPL identity. That identity is under review within Gestalt Myriad; no successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused. This document is retained for historical and technical reference; it does not indicate an active product or operating division. See [TRANSITION.md](../TRANSITION.md).
+
+---
+
+Universal User-Oriented Programming (UOP) is the design philosophy behind the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
 Universal User-Oriented Programming (UOP) is the design philosophy behind the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
 
 ---
