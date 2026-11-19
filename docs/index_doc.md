@@ -1,19 +1,21 @@
-# Nervestack Documentation
+# Historical Technical Documentation
 
-Welcome to the official documentation for the Nervestack Programming Language. This collection of documents provides a comprehensive guide to its syntax, features, and core philosophy.
+This index preserves technical material created under the former **Nervestack / NSPL** identity. Those names are historical identifiers, not current branding. Successor project and language identities remain **TBD / undecided**.
 
-## Core Concepts
-- **[UOP (Universal User-Oriented Programming)](./UOP.md)**: Understand the core philosophy behind Nervestack.
-- **[Syntax](./Syntax.md)**: A complete reference for the language's syntax.
-- **[Keywords](./Keywords.md)**: A dictionary of all language keywords.
+The **Programming Language (PL) Division Unit is CLOSED / NOT OPERATING**. Its closure applies only to that division and its business initiative; Gestalt Myriad remains the continuing parent enterprise. Naming exploration is paused until explicitly resumed.
 
-## Language Features
-- **[Built-in Functions](./builtins.md)**: A guide to the standard functions available in Nervestack.
-- **[Error Handling](./error.md)**: Learn how to handle errors using the `attempt-trap` system.
-- **[Bridge Interfaces](./Bridge.md)**: Understand how to create and use interfaces for modular design.
-- **[Toolkits (Modules)](./toolkit.md)**: Learn how to organize code into reusable modules.
-- **[Standard Library](./Lib.md)**: Explore the libraries included with Nervestack.
+These materials are retained as inherited reference material. Their presence does not imply that the former product or division is operating, that the implementation is currently maintained, or that a replacement identity has been approved.
 
-## Learning Resources
-- **[Examples](./Examples.md)**: Practical code examples for common tasks.
-- **[README](./README.md)**: The main project README file.
+## Preserved reference materials
+
+- **[UOP (Universal User-Oriented Programming)](./UOP.md):** Historical explanation of the language-design philosophy.
+- **[Syntax](./Syntax.md):** Historical syntax reference.
+- **[Keywords](./Keywords.md):** Historical keyword dictionary.
+- **[Built-in Functions](./builtins.md):** Historical built-in function reference.
+- **[Error Handling](./error.md):** Historical error-handling reference.
+- **[Bridge Interfaces](./Bridge.md):** Historical interface documentation.
+- **[Toolkits (Modules)](./toolkit.md):** Historical module documentation.
+- **[Standard Library](./Lib.md):** Historical library documentation.
+- **[Examples](./Examples.md):** Historical code examples.
+
+For the current repository and organisational status, consult the root [README](../README.md).
