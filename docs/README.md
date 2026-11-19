@@ -1,18 +1,19 @@
-# Project Documentation — Transition Notice
+# Documentation — Historical Technical Archive
 
-The material in this directory documents work historically developed under the **Nervestack / NSPL** identity.
+The material in this directory preserves technical work created under the former **Nervestack / NSPL** identity. That identity is historical and is not current branding. The successor project and language identities remain **TBD / undecided**.
 
-That identity is under review within **Gestalt Myriad**. No successor identity has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused until explicitly resumed.
+The **Programming Language (PL) Division Unit is CLOSED / NOT OPERATING**. This status applies only to that division and its business initiative; Gestalt Myriad remains the continuing parent enterprise. Naming exploration is paused until explicitly resumed.
 
-The documents are retained as inherited technical and intellectual reference material. Their continued presence does not indicate an active product launch or operating programming-language business.
+These documents are retained as inherited technical and intellectual reference material. Their presence does not indicate an active product, operating division, support commitment, or approved successor identity.
 
-- Preserve historical terminology where it is needed to understand existing syntax, source files, tooling or implementation decisions.
-- Do not infer a replacement language name, division name, file extension, logo or tagline.
-- Do not treat the former branding as current branding.
-- Do not change the underlying syntax, architecture or functionality solely to complete the identity transition.
+## Preservation rules
 
-For the complete current position, see the repository's [transition record](../TRANSITION.md).
+- Retain historical terminology where necessary to understand syntax, source files, tooling, implementation decisions and provenance.
+- Do not infer a replacement project name, language name, acronym, file extension, logo or tagline.
+- Do not treat former branding or historical roadmap statements as current commitments.
+- Do not change underlying syntax, architecture or functionality solely for an identity transition.
+- Treat implementation claims as historical records unless separately verified.
 
 ## Historical technical references
 
-The existing syntax, keyword, UOP, implementation, examples and architecture documents remain available as historical reference material. They have not been re-certified or comprehensively updated as a current product specification.
+The syntax, keyword, UOP, implementation, examples and architecture documents remain available as historical reference material. See the [documentation index](index_doc.md).
