@@ -1,7 +1,7 @@
 {
   "name": "nervestack",
-  "displayName": "Nervestack",
-  "description": "Language support for Nervestack",
+  "displayName": "Legacy Language Support (NSPL)",
+  "description": "Archived editor support for legacy Nervestack / NSPL source files; not a current successor language identity.",
   "version": "2.0.0",
   "publisher": "NervestackNNI",
   "repository": {
@@ -18,7 +18,7 @@
   "contributes": {
     "languages": [{
       "id": "nervestack",
-      "aliases": ["Nervestack", "nervestack"],
+      "aliases": ["Legacy Nervestack (NSPL)", "nervestack"],
       "extensions": [".nspl"],
       "configuration": "./language-configuration.json"
     }],
@@ -28,7 +28,7 @@
       "path": "./syntaxes/nervestack.tmLanguage.json"
     }],
     "themes": [{
-      "label": "Nervestack Dark",
+      "label": "Legacy Nervestack Dark",
       "uiTheme": "vs-dark",
       "path": "./themes/nervestack-color-theme.json"
     }]
