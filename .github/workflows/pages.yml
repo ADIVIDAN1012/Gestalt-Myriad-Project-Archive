@@ -6,8 +6,8 @@ name: Deploy GitHub Pages
 # Pages on every push to gh-pages. It no longer uploads or deploys anything.
 # The job is retained (rather than the file deleted) so the intent is visible
 # in the repository and the previous configuration can be restored
-# deliberately. The pre-overhaul state is preserved on the annotated tag
-# `pre-overhaul-archive`.
+# deliberately. The pre-overhaul state is preserved on the
+# `pre-overhaul-archive` branch.
 on:
   workflow_dispatch:
 
