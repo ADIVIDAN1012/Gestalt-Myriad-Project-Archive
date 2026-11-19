@@ -1,51 +1,27 @@
-# Release Notes - v2.0.0: The Nervestack Revolution
+# Historical Release Notes — Former Nervestack v2.0.0
 
-## 🎉 Major Update: Rebranded, Optimized, and Simplified
+> **Archive notice:** This release note records a past release under the former Nervestack / NSPL identity. It is not a current product announcement, support commitment or roadmap. The former identity is historical; successor project and language identities remain undecided. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**.
 
-Nervestack (NSPL) v2.0.0 is a complete reimagining of the language, focused on being the **easiest to read** and the **fastest to run**.
+The original release described changes to syntax, the UOP philosophy, runtime implementation, VS Code support and pack collections. These descriptions are retained as historical release context and have not been independently re-verified in this archival update.
 
-### ✨ What's New
+## Historical release claims
 
-**Easiest to Read (UOP Philosophy)** 🧠
-- Refined natural language syntax: `when`, `otherwise`, `spec`, `with`, `giving`, `done`.
-- Intuitive member access with the `~>` operator.
-- Simplified documentation: "Syntax in 5 Minutes" and clear, friendly guides.
+- Refined natural-language-inspired syntax, including `when`, `otherwise`, `spec`, `with`, `giving` and `done`.
+- Member access using the `~>` operator.
+- A Python-based frontend and C++ runtime were described.
+- Legacy VS Code syntax highlighting for `.nspl` files.
+- Pack collection syntax using `pack(items)`.
 
-**Fastest to Run (C++ Synergy)** 🚀
-- **Backend Migration**: The runtime engine has been transitioned from C to **C++** for better performance and maintainability.
-- **Dual-Engine Power**: Python-based intelligent parsing meets high-performance C++ execution.
+## Historical assets
 
-**VS Code Extension v2.0.0** 🧩
-- Full syntax highlighting for `.nspl` files.
-- Integrated Nervestack Dark theme.
-- Support for new keywords: `pack`, `unpack`, `spec`, `prep`, etc.
+The repository's release records and attached binaries are preserved as historical artifacts. Their presence does not imply that they are currently supported or recommended for new use.
 
-**Pack Collections** 📦
-- New `pack(items)` syntax for flexible, mixed-type data collections.
-
----
-
-### 🛠️ Execution
-
-```bash
-# Run any Nervestack file instantly
-python run_file.py your_code.nspl
-```
-
-### 📦 Downloads
-
-**Latest Release Assets:**
-- **NSPL Engine (main.exe)** - High-performance C++ runtime.
-- **Nervestack Extension (nervestack-2.0.0.vsix)** - Official VS Code support.
-
----
-
-### 📖 Documentation
+## Historical documentation
 
 - [Syntax Guide](Syntax.md)
 - [Keywords Reference](Keywords.md)
-- [The UOP Philosophy](UOP.md)
+- [UOP Philosophy](UOP.md)
 
-**Full Changelog**: [v1.0.0...v2.0.0](https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/compare/v1.0.0...v2.0.0)
+The original changelog reference pointed to a separate historical comparison. No successor product or release is announced here.
 
-Copyright © 2026 Nervestack Neuron Institute (NNI).
+*Historical copyright wording in the original release note referred to Nervestack Neuron Institute (NNI); retained names are provenance, not current organisational branding.*
