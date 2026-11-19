@@ -1,50 +1,41 @@
 # Universal User-Oriented Programming (UOP)
 
-> **Historical reference notice — 19 November 2026:** This document preserves material created under the former Nervestack / NSPL identity. That identity is under review within Gestalt Myriad; no successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused. This document is retained for historical and technical reference; it does not indicate an active product or operating division. See [TRANSITION.md](../TRANSITION.md).
+> **Historical reference notice — 19 November 2026:** This document preserves UOP material created under the former Nervestack / NSPL identity. Those names are historical identifiers, not current branding. The successor project and language identities remain undecided. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**; naming exploration is paused. This document is retained for technical and historical reference and does not indicate an active product or operating division. See the repository [README](../README.md) for current status.
 
 ---
 
-Universal User-Oriented Programming (UOP) is the design philosophy behind the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
+Universal User-Oriented Programming (UOP) is the design philosophy historically associated with the Nervestack language. It prioritizes human readability, intuition, and clarity, aiming to bridge the gap between human thought processes and machine execution.
 
 ---
 
 ## The Core Principles of UOP
 
-1.  **Human-Centric Keywords:** Language constructs are named with common words that clearly describe their function (e.g., `ask`, `show`, `when`, `attempt`). This minimizes the cognitive load required to understand the code's intent.
-
-2.  **Intuitive Structure:** The syntax is designed to follow the logical flow of human thought. For example, error handling with `attempt-trap` reads like a plain-language description of trying an action and catching a problem.
-
-3.  **Clarity Over Brevity:** While Nervestack code can be concise, the primary goal is always clarity. UOP avoids cryptic symbols and abbreviations in favor of expressive, self-documenting code.
-
-4.  **Universal Accessibility:** The language is designed to be approachable for a wide audience, including beginners, educators, artists, and engineers, without sacrificing the power needed for complex applications.
+1. **Human-Centric Keywords:** Language constructs are named with common words that clearly describe their function (e.g., `ask`, `show`, `when`, `attempt`). This minimizes the cognitive load required to understand the code's intent.
+2. **Intuitive Structure:** The syntax is designed to follow the logical flow of human thought. For example, error handling with `attempt-trap` reads like a plain-language description of trying an action and catching a problem.
+3. **Clarity Over Brevity:** The historical design emphasizes clarity over cryptic symbols and abbreviations.
+4. **Universal Accessibility:** The historical design aimed to be approachable for a wide audience, including beginners, educators, artists, and engineers.
 
 ---
 
-## ⚡ The Synergy: Easiest to Use, Fastest to Run
+## Historical Implementation Approach
 
-Nervestack (NSPL) achieves its status as the **easiest and fastest** programming language by leveraging the best of both worlds:
-
--   **Ease of Use (Python Frontend):** The frontend is written in Python, allowing for a flexible, intelligent parser that can handle natural language constructs with ease. This ensures the developer experience is smooth and intuitive.
--   **Blazing Speed (C++ Backend):** The execution engine is written in optimized C++. Once the Python frontend transforms your natural code into an Abstract Syntax Tree (AST), the C++ backend takes over, executing it with the raw performance of a system-level language.
-
----
+The former implementation combined a Python frontend with a C/C++ runtime. The exact implementation details vary across project stages and should be checked against the corresponding source code; this historical description is not a performance certification or comparative claim.
 
 ## UOP in Practice
 
-UOP is reflected in every aspect of the Nervestack language, from its syntax to its modular structure.
+UOP was reflected in the former language's syntax and modular structure.
 
-| Feature | UOP Implementation | Rationale |
+| Feature | Historical UOP implementation | Rationale |
 |---|---|---|
 | **Functions** | `spec` | "Specification" implies defining a clear behavior. |
-| **Interfaces** | `bridge` | A "bridge" is a relatable metaphor for connecting two separate things. |
+| **Interfaces** | `bridge` | A "bridge" is a relatable metaphor for connecting separate things. |
 | **Modules** | `toolkit` | A "toolkit" is an intuitive name for a collection of reusable tools. |
-| **Conditionals** | `when`, `otherwise` | These words clearly describe the decision-making process. |
-| **Error Handling** | `attempt`, `trap`, `trigger` | This vocabulary frames error handling as an active, understandable process. |
+| **Conditionals** | `when`, `otherwise` | These words describe decision-making. |
+| **Error Handling** | `attempt`, `trap`, `trigger` | This vocabulary frames error handling as an active process. |
 | **Input/Output** | `ask`, `show` | These are direct, action-oriented words for user interaction. |
 
-**Example:**
+**Historical example:**
 
-Consider this simple UOP-style code for logging in:
 ```nervestack
 spec login:
     firm username = ask "Enter your username: "
@@ -58,23 +49,22 @@ spec login:
     done
 done
 ```
-The code reads like a set of instructions, making its purpose immediately clear even to a non-programmer.
 
 ---
 
-## UOP vs. Traditional Paradigms
+## UOP and Traditional Paradigms
 
-UOP can be seen as an evolution of other programming paradigms, combining their strengths while focusing on the human element.
+UOP can be understood as a design philosophy that places emphasis on the user's mental model and the clarity of code intent. This is a conceptual comparison, not a claim that UOP supersedes other paradigms or that it has been validated as a distinct formal paradigm.
 
-| Aspect | UOP (Nervestack) | Traditional OOP/Procedural |
+| Aspect | UOP (historical formulation) | Traditional OOP/procedural approaches |
 |---|---|---|
-| **Primary Focus** | The user's mental model and the clarity of the code's intent. | Data structures, objects, and algorithmic procedures. |
-| **Syntax** | Natural-language-inspired, semantic keywords. | More technical and abstract keywords (e.g., `class`, `try`, `raise`). |
-| **Goal** | To make code a medium for clear communication. | To provide precise instructions for the machine to execute efficiently. |
-| **Performance** | High-performance C core for execution. | Varies by implementation. |
+| **Primary Focus** | The user's mental model and clarity of intent. | Data structures, objects and procedures. |
+| **Syntax** | Natural-language-inspired, semantic keywords. | Varies by language and implementation. |
+| **Goal** | Make code a medium for clear communication. | Provide precise instructions for execution. |
+| **Performance** | Depends on the implementation. | Depends on the implementation. |
 
 ---
 
 ## Conclusion
 
-UOP is more than just a set of keywords; it is a design philosophy that shapes the entire Nervestack language. By prioritizing the human user—both the developer writing the code and the end-user interacting with the program—UOP aims to make software development a more intuitive, creative, and accessible discipline.
+UOP is a design philosophy preserved in this repository's historical language-design work. Its central emphasis is the human user: both the developer writing code and the end-user interacting with software.
