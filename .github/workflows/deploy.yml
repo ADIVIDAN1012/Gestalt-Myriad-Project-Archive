@@ -7,7 +7,7 @@ name: Deploy Website to GitHub Pages
 # or deploys anything. The job is retained (rather than the file deleted) so
 # the intent is visible in the repository and the previous configuration can
 # be restored deliberately. The pre-overhaul state is preserved on the
-# annotated tag `pre-overhaul-archive`.
+# `pre-overhaul-archive` branch.
 on:
   workflow_dispatch:
 
