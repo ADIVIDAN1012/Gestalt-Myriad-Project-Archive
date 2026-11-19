@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git"
   },
-  "icon": "icon.png",
+  "icon": "icon.jpg",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -16,21 +16,32 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "nervestack",
-      "aliases": ["Legacy Nervestack (NSPL)", "nervestack"],
-      "extensions": [".nspl"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "nervestack",
-      "scopeName": "source.nervestack",
-      "path": "./syntaxes/nervestack.tmLanguage.json"
-    }],
-    "themes": [{
-      "label": "Legacy Nervestack Dark",
-      "uiTheme": "vs-dark",
-      "path": "./themes/nervestack-color-theme.json"
-    }]
+    "languages": [
+      {
+        "id": "nervestack",
+        "aliases": [
+          "Legacy Nervestack (NSPL)",
+          "nervestack"
+        ],
+        "extensions": [
+          ".nspl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nervestack",
+        "scopeName": "source.nervestack",
+        "path": "./syntaxes/nervestack.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Legacy Nervestack Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nervestack-color-theme.json"
+      }
+    ]
   }
 }
