@@ -1,90 +1,19 @@
-# 🧠 Nervestack (NSPL)
-### The Easiest to Read. The Fastest to Run.
+# Documentation — Historical Technical Archive
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+The material in this directory preserves technical work created under the former **Nervestack / NSPL** identity. That identity is historical and is not current branding. The successor project and language identities remain **TBD / undecided**.
 
-Nervestack is a futuristic **Universal User-oriented Programming (UOP)** language. It's designed to be as readable as English while running with the blazing speed of C++.
+The **Programming Language (PL) Division Unit is CLOSED / NOT OPERATING**. This status applies only to that division and its business initiative; Gestalt Myriad remains the continuing parent enterprise. Naming exploration is paused until explicitly resumed.
 
----
+These documents are retained as inherited technical and intellectual reference material. Their presence does not indicate an active product, operating division, support commitment, or approved successor identity.
 
-## ⚡ Quick Start (30 Seconds)
+## Preservation rules
 
-1. **Clone & Build**
-   ```bash
-   git clone https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git
-   cd Nervestack-Neuron-Institute-NNI
-   cd src/runtime; .\build.bat; cd ../..
-   ```
+- Retain historical terminology where necessary to understand syntax, source files, tooling, implementation decisions and provenance.
+- Do not infer a replacement project name, language name, acronym, file extension, logo or tagline.
+- Do not treat former branding or historical roadmap statements as current commitments.
+- Do not change underlying syntax, architecture or functionality solely for an identity transition.
+- Treat implementation claims as historical records unless separately verified.
 
-2. **Write your first program** (`hello.nspl`)
-   ```nervestack
-   show "Hello, Nervestack!"
-   ```
+## Historical technical references
 
-3. **Run it instantly**
-   ```bash
-   python run_file.py hello.nspl
-   ```
-
----
-
-## 🚀 Why Nervestack?
-
-### 1. Easy to Read (Python Frontend)
-Nervestack uses a Python-based intelligent parser that understands English-like keywords. No more cryptic symbols.
-```nervestack
-spec greet with name:
-    show "Hello, |name|! Welcome to the future."
-done
-
-greet "Developer"
-```
-
-### 2. Fast to Run (C++ Runtime)
-Once parsed, your code is executed by a high-performance **C++ engine**. You get the simplicity of Python with the raw power of C++.
-
----
-
-## ✨ Key Features
-
-- **Natural Syntax**: `when`, `otherwise`, `traverse`, `until`, `attempt`.
-- **Intelligent I/O**: `ask` for input, `show` for output.
-- **Modern OOP**: `blueprint` (classes), `adopt` (inheritance), `spawn` (instances).
-- **Safe & Robust**: Native `attempt-trap-conclude` error handling.
-
----
-
-## 🛠️ Installation
-
-### Prerequisites
-- **Python 3.10+**
-- **C++ Compiler** (GCC, Clang, or MSVC)
-
-### Detailed Setup
-```bash
-# 1. Get the code
-git clone https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI.git
-cd Nervestack-Neuron-Institute-NNI
-
-# 2. Build the C++ Engine
-cd src/runtime
-.\build.bat
-cd ../..
-```
-
----
-
-## 📖 Learning Nervestack
-
-- **[Syntax in 5 Minutes](Syntax.md)** - Get up to speed quickly.
-- **[Keyword Dictionary](Keywords.md)** - Every keyword explained.
-- **[The UOP Philosophy](UOP.md)** - Why we built it this way.
-- **[Examples](Examples.md)** - Real-world code snippets.
-
----
-
-## 🤝 Contributing
-
-We love help! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
-
-Copyright © 2026 Nervestack Neuron Institute (NNI).
+The syntax, keyword, UOP, implementation, examples and architecture documents remain available as historical reference material. See the [documentation index](index_doc.md).
