@@ -1,41 +1,16 @@
-Nervestack Programming Language (NSPL) - Use Cases and Applications
+HISTORICAL REFERENCE — FORMER NERVESTACK / NSPL PROJECT
 
-The Nervestack Programming Language, developed by the Nervestack Neuron Institute (NNI), is built on the Universal User-Oriented Programming (UOP) paradigm. Its design prioritizes human intuition and readability, making it suitable for several high-impact use cases:
+This document preserves an earlier concept note describing possible use cases for the former programming-language project. The claims below are historical proposals and should not be read as verified capabilities, validated market fit, or current product positioning.
 
-1. Educational Foundation
-   - Ideal for teaching the core logic of programming to beginners.
-   - Replaces abstract syntax (like {}, ++, &&) with natural language keywords (firm, show, traverse, check).
-   - Allows students to focus on algorithmic thinking rather than memorizing complex symbols.
+The former identity is not current branding. The successor project and language identities remain undecided. The Programming Language (PL) Division Unit is CLOSED / NOT OPERATING. Naming exploration is paused.
 
-2. Auditable Rules Engines
-   - Perfect for business logic, financial rules, or legal governance systems where non-technical stakeholders must be able to verify the logic.
-   - Code "reads like a manual," making it self-documenting and easy to audit for compliance.
+Historical concept areas:
+1. Educational programming concepts using readable keywords.
+2. Auditable rules and policy logic.
+3. Readable scripting and automation.
+4. Experimental concurrency primitives.
+5. Object-oriented structures and interface concepts.
 
-3. Highly Readable Scripting
-   - Useful for general-purpose automation where long-term maintainability is a priority.
-   - The descriptive nature of the language reduces the need for heavy commenting and lowers the entry barrier for new developers joining a project.
+The examples and terminology in this file use legacy identifiers such as `firm`, `show`, `traverse`, `spec`, `blueprint`, `bridge`, `paral`, `signal` and `listen`. Their presence is for technical provenance only; no successor language name or file extension is implied.
 
-4. Experimental Concurrency Modeling
-   - Provides accessible primitives for parallel execution (paral, hold) and event-driven architectures (signal, listen).
-   - Serves as a research platform for simplified concurrency models.
-
-5. System Architecture Design
-   - The "Blueprint" and "Bridge" systems allow for defining complex object-oriented structures and interfaces that are human-readable but strictly enforced by the compiler.
-
-Value of Rebranding to Nervestack (NNI):
-- Established a professional and unique project identity under the Nervestack Neuron Institute.
-- Introduced the streamlined .ns file extension for a better developer workflow.
-- Standardized the CLI toolchain for a cohesive experience from lexing to interpretation.
-- Clarified the development roadmap by distinguishing between stable, experimental, and planned features.
-
-Example Syntax:
-spec calculate_tax with income:
-    check (income > 50000):
-        forward income * 0.20
-    otherwise:
-        forward income * 0.10
-    done
-done
-
-firm tax = funcall calculate_tax(60000)
-show "The calculated tax is: |tax|"
+Any historical statements about rebranding, product positioning, release readiness or a new file extension are superseded by the current repository [README](../README.md).
