@@ -1,73 +1,40 @@
-# Contributing to Nervestack
+# Contributing — Historical Codebase Reference
 
-Thank you for your interest in contributing to Nervestack! This document contains technical details for developers working on the compiler and toolchain.
+> This repository is an archive of inherited work from the former Nervestack / NSPL project. The former identity is not current branding; successor identity is undecided. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**. This guide documents the historical development layout and does not announce an active contribution programme.
 
-## 🏗️ Project Structure
+The source tree is retained for inspection, preservation and technical continuity. No ongoing maintenance or support commitment is implied.
+
+## Historical project structure
 
 ```
-Nervestack-Neuron-Institute-NNI/
-├── src/
-│   ├── frontend/         # Python Compiler (Lexer/Parser/AST)
-│   └── runtime/          # C++ Interpreter (VM/Backend)
-├── third_party/          # Dependencies (cJSON)
-├── tools/                # VS Code Extension, Scripts, Website
-├── docs/                 # Documentation files
-├── examples/             # Example .NSPL files
-├── tests/                # Test suite
-└── README.md             # Main user documentation
+├── src/                  # Preserved frontend and runtime source
+├── third_party/          # Third-party dependencies
+├── tools/                # Legacy editor extension and scripts
+├── docs/                 # Historical documentation
+├── examples/             # Legacy source examples
+├── tests/                # Historical test suite
+└── README.md             # Current archive status
 ```
 
-## 🛠️ Development
+## Historical build and test notes
 
-### Prerequisites
-
-- **Python 3.10 or higher**
-- **C++ Compiler** (GCC recommended for Windows, or Clang/MSVC)
-- **Git**
-
-### Building the Compiler
-
-#### Step 1: Compile the C++ Backend
-
-Navigate to the C++ backend directory and build:
+The commands below are retained as reference only; dependencies, paths and build behaviour may have changed.
 
 ```bash
 cd src/runtime
-.\build.bat
+# On Windows, the historical build script was:
+.uild.bat
 ```
-
-This generates `main.exe` - the Nervestack runtime interpreter.
-
-#### Step 2: Compile to AST (Frontend)
-
-The frontend is Python-based and requires no compilation, but you run it to generate the AST:
 
 ```bash
-cd src/frontend
-py frontend.py ..\..\examples\your_file.NSPL
+py src/frontend/frontend.py examples/your_file.NSPL
+py tests/test_runner.py
 ```
 
-### Testing & Verification
+Consult [IMPLEMENTATION_STATUS.md](./IMPLEMENTATION_STATUS.md) for the historical feature record. Its claims have not been independently re-verified.
 
-To verify if a feature works:
+## Legacy VS Code extension
 
-1. **Write a test:** Create a `.NSPL` file using the feature
-2. **Compile:** Run `py src/frontend/frontend.py examples/yourtest.NSPL` to generate `ast.json`
-3. **Execute:** Run `.\src\runtime\main.exe ast.json`
-4. **Verify:** Does it produce the expected output?
+The package in `tools/vscode_extension/` retains its former language ID, grammar scope and `.nspl` extension for compatibility with existing files. These identifiers are historical, not approved successor branding.
 
-See **[IMPLEMENTATION_STATUS.md](./IMPLEMENTATION_STATUS.md)** for detailed feature status and testing recommendations.
-
-### Running Tests
-
-```bash
-cd tests
-py test_runner.py
-```
-
-## VS Code Extension
-
-To work on the extension:
-
-1. Open the `Nervestack-vscode-extension` folder in VS Code.
-2. Press `F5` to launch a new VS Code window with the extension loaded.
+For the current organisational and preservation position, see the root [README](../README.md).
