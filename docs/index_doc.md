@@ -1,10 +1,10 @@
 # Historical Technical Documentation
 
-This documentation preserves technical material created under the former **Nervestack / NSPL** identity.
+This index preserves technical material created under the former **Nervestack / NSPL** identity. Those names are historical identifiers, not current branding. Successor project and language identities remain **TBD / undecided**.
 
-The former identity is under review within **Gestalt Myriad**. No successor name has been selected. The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**, and naming exploration is paused until explicitly resumed.
+The **Programming Language (PL) Division Unit is CLOSED / NOT OPERATING**. Its closure applies only to that division and its business initiative; Gestalt Myriad remains the continuing parent enterprise. Naming exploration is paused until explicitly resumed.
 
-These materials remain available as inherited reference material. Their presence does not imply that the former product or division is operating, nor that a replacement identity has been approved.
+These materials are retained as inherited reference material. Their presence does not imply that the former product or division is operating, that the implementation is currently maintained, or that a replacement identity has been approved.
 
 ## Preserved reference materials
 
@@ -18,4 +18,4 @@ These materials remain available as inherited reference material. Their presence
 - **[Standard Library](./Lib.md):** Historical library documentation.
 - **[Examples](./Examples.md):** Historical code examples.
 
-For the current organisational position and preservation rules, see [the transition record](../TRANSITION.md).
+For the current repository and organisational status, consult the root [README](../README.md).
