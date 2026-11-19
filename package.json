@@ -1,6 +1,6 @@
 {
   "name": "nervestack-code-engine",
-  "description": "Nervestack (NSPL) - A readable programming language by Nervestack Neuron Institute (NNI).",
+  "description": "Archived source and tooling from the former Nervestack / NSPL project; not a current product identity.",
   "private": true,
   "version": "1.0.0",
   "type": "module",
