@@ -1,86 +1,11 @@
-# 🚀 Redeploy Nervestack Website to GitHub Pages
+# Former Website — Deployment Retired
 
-## ✅ Changes Pushed to GitHub
+> **Status:** GitHub Pages is intentionally unpublished. This document is retained as historical context only. Do not redeploy the former website or re-enable Pages unless explicitly authorised.
 
-Your website files are now updated and pushed to: https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI
+The original deployment notes, download URLs, website checks and setup steps refer to the former Nervestack / NSPL identity. They are obsolete and do not represent an active product, release plan or official website.
 
-**Updated:**
+No successor project identity, product website, domain or replacement download destination has been selected. Existing binaries and source assets remain preserved as historical artifacts.
 
-- Download links now point to v2.0.0 GitHub release assets
-- NSPL.exe link: `https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/releases/download/v2.0.0/NSPL.exe`
-- VS Code extension link: `https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/releases/download/v2.0.0/Nervestack-2.0.0.vsix`
+The Programming Language (PL) Division Unit is **CLOSED / NOT OPERATING**. This does not indicate closure of Gestalt Myriad.
 
----
-
-## 📋 Next Steps: Configure GitHub Pages
-
-### Option 1: Deploy from `Nervestack-website` folder (Recommended)
-
-1. Go to: https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/settings/pages
-
-2. Under **Source**:
-   - Branch: Select **main**
-   - Folder: Select **/Nervestack-website**
-   - Click **Save**
-
-3. Wait 1-2 minutes for deployment
-
-4. Your site will be live at:
-   ```
-   https://adividan1012.github.io/Nervestack-NNI/
-   ```
-
-### Option 2: Deploy from root with custom workflow
-
-If you want the site at the root URL without the `/Nervestack-website` path, you'll need to either:
-
-- Move the website files to the root directory, OR
-- Create a custom GitHub Actions workflow
-
----
-
-## ⚡ Quick Deploy (Recommended)
-
-**Just follow these 3 steps:**
-
-1. **Open Settings**: https://github.com/ADIVIDAN1012/Nervestack-Neuron-Institute-NNI/settings/pages
-
-2. **Configure**:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/Nervestack-website**
-
-3. **Save** and wait 1-2 minutes
-
----
-
-## 🔍 Verify Deployment
-
-Once deployed, check:
-
-- ✅ Site loads: https://adividan1012.github.io/Nervestack-NNI/
-- ✅ Download buttons work
-- ✅ Styling looks correct
-- ✅ Images load properly
-
----
-
-## 🔄 Future Updates
-
-To update the website in the future:
-
-```bash
-cd c:\Users\aadit\OneDrive\Desktop\project_2_Nervestack
-
-# Make changes to Nervestack-website/index.html or style.css
-
-git add Nervestack-website/
-git commit -m "Update website"
-git push origin main
-```
-
-GitHub will automatically redeploy within 1-2 minutes!
-
----
-
-**Your website is ready to go live! 🎉**
+See the root [README](../README.md) for current status.
