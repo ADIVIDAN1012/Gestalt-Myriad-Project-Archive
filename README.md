@@ -1,32 +1,46 @@
-# A New Chapter Is Taking Shape
+# Gestalt Myriad — Legacy Project Archive
 
-The project historically known as **Nervestack / Nervestack Neuron Institute (NNI)** is undergoing an identity review within **Gestalt Myriad**.
+This repository preserves technical work inherited from the former **Nervestack / Nervestack Neuron Institute (NNI)** identity.
 
-The former identity is under review, and **no successor name has been selected**. This is a deliberate transition—not a final farewell to the work.
+The former identity is retired from current-facing use and remains only as historical and technical context. The successor identity for this project has **not** been selected.
 
-## Current status
+## Organisational status
 
 - **Parent enterprise:** Gestalt Myriad remains the continuing parent enterprise.
-- **Former NNI identity:** Under review; successor **UNKNOWN / NOT DECIDED**.
+- **Former project identity:** Nervestack / NNI — historical; not current branding.
+- **Successor project identity:** **TBD / undecided**.
 - **Programming Language (PL) Division Unit:** **CLOSED / NOT OPERATING**.
-- **PL division identity, programming language name and source-file extension:** **UNKNOWN / NOT DECIDED**.
+- **Successor language name, acronym, source-file extension and product identity:** **TBD / undecided**.
 - **Naming exploration:** Paused until explicitly resumed.
-- **Website:** Unpublished during the transition; no replacement official website or URL has been established.
+- **Website:** The former website is unpublished. No replacement official website or URL has been established.
 
-The PL Division's closure applies only to that division and its business/startup initiative. It does not mean Gestalt Myriad is closed, suspended or cancelled.
+The PL Division Unit's closure applies only to that division and its business initiative. It does **not** mean Gestalt Myriad is closed, suspended or cancelled.
 
-## What happens to the existing work?
+## What this repository contains
 
-The repository is being retained as an archive of useful inherited work. Existing source code, UOP principles, research, language-design work, documentation, examples and technical contributions are not being discarded merely because their former branding is deprecated.
+The repository is retained as an archive of inherited work, including source code, implementation experiments, UOP (Universal User-Oriented Programming) material, technical documentation, examples, tests, build artifacts and historical tooling.
 
-Historical identifiers such as `Nervestack`, `NSPL` and `NNI` may remain in source code, file extensions, paths and technical records where they are needed for continuity and traceability. Their presence does not make them approved current branding.
+Preservation does not imply that the former product is active, supported, maintained, certified or available for a new launch. Historical implementation-status statements and roadmap entries are records from their original context, not current commitments or independently re-verified claims.
 
-No successor name, acronym, logo, tagline, domain or replacement file extension is being announced. The underlying syntax, architecture and functionality are not being changed solely as part of this identity transition.
+## Preservation and continuity
 
-## Transition record
+- Preserve source code, Git history, technical contributions, UOP concepts and useful research.
+- Keep historical identifiers where required for compatibility, file formats, code, tooling, provenance or accurate explanation of existing artifacts.
+- Do not treat historical identifiers as approved current branding.
+- Do not invent or infer a successor name, acronym, logo, domain, tagline, publisher identity or file extension.
+- Do not alter syntax, architecture, runtime behaviour or technical functionality merely to perform an identity transition.
+- Do not interpret the PL Division Unit's closure as closure of Gestalt Myriad.
+- GitHub Pages remains unpublished; deployment workflows are intentionally disabled.
 
-See **[TRANSITION.md](TRANSITION.md)** for the authoritative status, preservation rules and naming safeguards.
+## Repository guide
+
+- `src/`, `tests/`, `examples/` — preserved implementation, tests and examples.
+- `docs/` — historical technical and UOP reference material.
+- `tools/vscode_extension/` — legacy editor-support package and metadata.
+- `assets/` — historical visual and launch materials.
+
+Start with [the documentation index](docs/index_doc.md) for the preserved technical references. The material has not been comprehensively re-certified as a current product specification.
 
 ---
 
-*One enterprise. Myriad possibilities. A greater whole.*
+*Gestalt Myriad · One enterprise. Myriad possibilities. A greater whole.*
